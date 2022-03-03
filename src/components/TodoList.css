@@ -1,0 +1,25 @@
+.listItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.ButtonBox {
+  display: flex;
+  margin-left: 5vw;
+}
+.ButtonBox button {
+  /* display: flex; */
+  /* justify-content: space-around; */
+  margin: 2px;
+  padding: 5px;
+  /* outline: none; */
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+}
+.ButtonBox #green {
+  background-color: green;
+}
+.ButtonBox #red {
+  background-color: red;
+}
